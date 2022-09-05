@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+.titulo-principal{
+    text-align: center;
+    padding-top: 50px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px; 
+}
+
+.section-principal{
+    background-color: #1adb5f;
+    height: 450px;
+    margin: 50px 80px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.botao-principal{
+    margin: 10px;
+    width: 250px;
+    padding: 10px; 
+    border-radius: 15px;
+    text-transform: uppercase;
+    color: #38ff7e;
+    background-color: #098f38;
+    cursor: pointer;
+    letter-spacing: 3px;
+}
+
+
+

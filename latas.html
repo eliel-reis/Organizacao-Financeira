@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo/style-pagina-inicial.css">
+    <link rel="stylesheet" href="estilo/style-latas.css">
+    <title>Organização Financeira</title>
+</head>
+<body>
+    <h1 class="titulo-principal">Organização Financeira</h1>
+    <div class="botao-principal-juntos">
+        <button class="botao-principal">Adicionar Produto</button>
+        <button class="botao-principal">Deletar Produto</button>
+    </div>
+    <section class="section-principal">
+        <div class="total-principal">
+            <div class="section-principal-produtos">
+                <p class="cabecalho">Produtos</p>
+                <p>Brahama Pilsen</p>
+                <p>Skol </p>
+                <p>Itaipava </p>
+                <p>Brahama Duplo</p>
+                <p>Petra </p>
+                <p>Devassa</p>
+                <p>Refrigerante</p>
+            </div>
+            <div class="section-principal-contas">
+                <p class="cabecalho">Caixas</p>
+                <input type="number" name="" id="caixa-brahama-pilsen">
+                <input type="number" name="" id="caixa-skol">
+                <input type="number" name="" id="caixa-itaipava">
+                <input type="number" name="" id="caixa-brahama-duplo">
+                <input type="number" name="" id="caixa-petra">
+                <input type="number" name="" id="caixa-devassa">
+                <input type="number" name="" id="caixa-refrigerante">
+            </div>
+            <div class="section-principal-contas">
+                <p class="cabecalho">Unidades</p>
+                <p class="resultado" id="resultado-brahama-pilsen">resultado</p>
+                <p class="resultado" id="resultado-skol">resultado</p>
+                <p class="resultado" id="resultado-itaipava">resultado</p>
+                <p class="resultado" id="resultado-brahama-duplo">resultado</p>
+                <p class="resultado" id="resultado-petra">resultado</p>
+                <p class="resultado" id="resultado-devassa">resultado</p>
+                <p class="resultado" id="resultado-refrigerante">resultado</p>
+            </div>
+            <div class="section-principal-contas">
+                <p class="cabecalho">Total R$</p>
+                <p class="resultado" id="resultado-total-brahama-pilsen">resultado</p>
+                <p class="resultado" id="resultado-total-skol">resultado</p>
+                <p class="resultado" id="resultado-total-itaipava">resultado</p>
+                <p class="resultado" id="resultado-total-brahama-duplo">resultado</p>
+                <p class="resultado" id="resultado-total-petra">resultado</p>
+                <p class="resultado" id="resultado-total-devassa">resultado</p>
+                <p class="resultado" id="resultado-total-refrigerante">resultado</p>
+            </div>
+            <div class="section-principal-contas">
+                <p class="cabecalho">Lucro Total R$</p>
+                <p class="resultado" id="lucro-total-brahama-pilsen">resultado</p>
+                <p class="resultado" id="lucro-total-skol">resultado</p>
+                <p class="resultado" id="lucro-total-itaipava">resultado</p>
+                <p class="resultado" id="lucro-total-brahama-duplo">resultado</p>
+                <p class="resultado" id="lucro-total-petra">resultado</p>
+                <p class="resultado" id="lucro-total-devassa">resultado</p>
+                <p class="resultado" id="lucro-total-refrigerante">resultado</p>
+            </div>
+            <div class="botoes">
+                <button class="calculaR" onclick="calculobrahamapilsen(), calculoskol(), calculoitaipava(), calculobrahamaduplo(), calculopetra(), calculodevassa(), calculorefrigerante(), lucroBrahamaPilsen(),lucroSkol(), lucroItaipava(), lucroBrahamaDuplo(), lucroPetra(), lucroDevassa(), lucroRefrigerante()">Calcular</button>
+                <a class="calculaR" href="./pagina-inicial.html">Voltar</a>
+            </div>
+        </div>
+    </section>
+    <script src="calculo.js"></script>
+</body>
+</html>

@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.botao-principal-juntos{
+    text-align: center;
+    padding: 10px;
+}
+
+.botao-principal{
+    margin: 30px;
+}
+
+.section-principal{
+    display: block;
+}
+
+.total-principal{
+    display: flex;
+}
+
+.section-principal-produtos{
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 1.2em;
+    font-weight: 600;
+    width: 150px;
+    height: 300px;
+}
+
+.section-principal-contas{
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 1.2em;
+    font-weight: 600;
+    width: 150px;
+    height: 300px;
+}
+
+.section-principal-produtos > p {
+    margin-top: 13.5px;
+}
+
+
+.section-principal-contas > input{
+    margin-top: 13px;
+    width: 100px;
+    outline: none;
+    border-radius: 15px;
+    padding: 4px;
+    background-color: #098F38;
+    border: none;
+}
+
+.cabecalho{
+    margin-top: 10px;
+    margin-left: 3px;
+    text-align: left;
+}
+
+.resultado{
+    width: 100px;
+    background-color: #098F38;
+    margin-top: 14px;
+    color: rgba(0, 0, 0, 0.377);
+}
+
+.calculaR{
+    width: 150px;
+    height: 50px;
+    background-color: #098F38;
+    border: none;
+    color: black;
+    font-size: 1.2;
+    font-weight: 800;
+    text-transform: uppercase;
+    padding: 15px;
+    margin-top: 150px;
+    margin-left: 80px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+#lucro-total {
+    margin: auto;
+}
+
+#label-lucro-total {
+    width: 150px;
+    margin: auto;
+    text-align: right;
+}
+
+.botoes {
+    display: flex;
+    width: 400px;
+    padding-right: 20px;
+}

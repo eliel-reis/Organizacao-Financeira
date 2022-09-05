@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo/style-pagina-inicial.css">
+    <link rel="stylesheet" href="estilo/style-latas.css">
+    <title>Organização Financeira</title>
+</head>
+<body>
+    <h1 class="titulo-principal">Organização Financeira</h1>
+    <div class="botao-principal-juntos">
+        <button class="botao-principal">Adicionar Produto</button>
+        <button class="botao-principal">Deletar Produto</button>
+    </div>
+    <section class="section-principal">
+        <div class="total-principal">
+            <div class="section-principal-produtos">
+                <p class="cabecalho">Produtos</p>
+                <p>Água </p>
+                <p>Água C/Gás</p>
+                <p>Heineken </p>
+                <p>Corona</p>
+                <p>Boduais</p>
+                <p>Stella</p>
+            </div>
+            <div class="section-principal-contas">
+                <p class="cabecalho">Caixas</p>
+                <input type="number" name="" id="caixa-agua">
+                <input type="number" name="" id="caixa-agua-gas">
+                <input type="number" name="" id="caixa-heineken">
+                <input type="number" name="" id="caixa-corona">
+                <input type="number" name="" id="caixa-boduais">
+                <input type="number" name="" id="caixa-stella">
+            </div>
+            <div class="section-principal-contas">
+                <p class="cabecalho">Unidades</p>
+                <p class="resultado" id="resultado-agua">resultado</p>
+                <p class="resultado" id="resultado-agua-gas">resultado</p>
+                <p class="resultado" id="resultado-heineken">resultado</p>
+                <p class="resultado" id="resultado-corona">resultado</p>
+                <p class="resultado" id="resultado-boduais">resultado</p>
+                <p class="resultado" id="resultado-stella">resultado</p>
+            </div>
+            <div class="section-principal-contas">
+                <p class="cabecalho">Total R$</p>
+                <p class="resultado" id="resultado-total-agua">resultado</p>
+                <p class="resultado" id="resultado-total-agua-gas">resultado</p>
+                <p class="resultado" id="resultado-total-heineken">resultado</p>
+                <p class="resultado" id="resultado-total-corona">resultado</p>
+                <p class="resultado" id="resultado-total-boduais">resultado</p>
+                <p class="resultado" id="resultado-total-stella">resultado</p>
+            </div>
+            <div class="section-principal-contas">
+                <p class="cabecalho">Lucro Total R$</p>
+                <p class="resultado" id="lucro-total-agua">resultado</p>
+                <p class="resultado" id="lucro-total-agua-gas">resultado</p>
+                <p class="resultado" id="lucro-total-heineken">resultado</p>
+                <p class="resultado" id="lucro-total-corona">resultado</p>
+                <p class="resultado" id="lucro-total-boduais">resultado</p>
+                <p class="resultado" id="lucro-total-stella">resultado</p>
+            </div>
+            <div class="botoes">
+                <button class="calculaR" onclick="calculoagua(), calculoaguagas(), calculoheineken(),calculocorona(),calculoboduais(), calculostella(), lucroAgua(), lucroAguaGas(), lucroHeineken(), lucroCorona(),lucroBoduais(), lucroStella()">Calcular</button>
+                <a class="calculaR" href="./pagina-inicial.html">Voltar</a>
+            </div>
+        </div>
+    </section>
+    <script src="calculo2.js"></script>
+</body>
+</html>
